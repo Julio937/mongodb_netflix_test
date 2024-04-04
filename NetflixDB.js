@@ -155,5 +155,13 @@ usuarios.forEach(function(usuario) {
   }
 });
 
+var userId = "USUARIO_2"
+var result = detectDifferentIP(userId);
+printjson(result.toArray());
+
+var result = detectDifferentIPsInUsers();
+printjson(result.toArray());
+
+
 
 
